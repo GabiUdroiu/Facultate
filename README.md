@@ -1,9 +1,5 @@
 # C++ Exercises Collection 💻
 
-This repository contains a collection of basic C++ exercises.
-
-## 🤔 About
-
 This repository consists of a collection of basic C++ exercises that cover a range of topics including:
 
 - **Object-Oriented Programming (OOP) Basics**
