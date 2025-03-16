@@ -74,7 +74,6 @@ If you have any questions or feedback, feel free to reach out!
 - GitHub: [@GabiUdroiu](https://github.com/GabiUdroiu)
 - Email: [your.email@example.com](mailto:your.email@example.com)
 - gabibos
-- samuraiul myilsugy
 ---
 
 Happy coding and good luck with your C++ journey! 🎉
