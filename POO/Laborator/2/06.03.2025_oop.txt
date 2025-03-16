@@ -1,0 +1,13 @@
+// 06.03.2025 -- Laborator OOP - 2
+
+(-)
+atribute num,numit
+constuct implicit cu parametri
+metod egetteri si setteri 
+
+(-)
+Implementati clasa cerc
+- Un atribut raza(double)
+- Trei metode: circum(2 × radius × π), getRaza, setRaza 
+- Trei constructori: implicit cu parametri si de copiere si un destructor
+

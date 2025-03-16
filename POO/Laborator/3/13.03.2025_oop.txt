@@ -1,0 +1,10 @@
+// 13.03.2025 -- Laborator OOP - 3
+
+(-)
+Implementati clasa fractie
+- doua atribute:numarator,numitor int
+- un atrib static: unu (fractie)
+- un constructor implicit si unul cu param
+- destructor
+- getters,setters
+- etc
