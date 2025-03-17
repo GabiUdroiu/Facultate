@@ -1,5 +1,5 @@
 /*
-Generarea produsului cartezian pentru multimi standard.
+1. Generarea produsului cartezian pentru multimi standard.
 */
 
 #include <iostream>
@@ -31,11 +31,9 @@ void produs_cartezian(int m[], int n) {
 
 int main() {
     int m[101], n;
-    
     cin >> n;
     for(int i = 1; i <= n; i++)
         cin >> m[i];
-
     produs_cartezian(m,n);
     return 0;
 }

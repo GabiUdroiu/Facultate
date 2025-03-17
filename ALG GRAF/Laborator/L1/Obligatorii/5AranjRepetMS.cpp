@@ -1,5 +1,5 @@
 /*
-Generarea aranjamentelor cu repetitie pentru multimi standard.
+5. Generarea aranjamentelor cu repetitie pentru multimi standard.
 */
 
 #include <iostream>
@@ -31,9 +31,7 @@ void aranjamente_cu_repetitie(int a[], int n, int m) {
 
 int main() {
     int a[101], n, m;
-    
     cin >> n >> m;
-
     aranjamente_cu_repetitie(a, n, m);
     return 0;
 }

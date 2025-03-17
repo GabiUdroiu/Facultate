@@ -1,5 +1,5 @@
 /*
-Generarea submultimilor unei multimi oarecare.
+4. Generarea submultimilor unei multimi oarecare.
 */
 
 #include <iostream>
@@ -33,10 +33,8 @@ void submultimi(int a[], int n) {
 int main() {
     int a[101], n;
     cin>>n;
-
     for(int i = 1; i <= n; i++)
         cin >> a[i];
-
     submultimi(a,n);
     return 0;
 }
