@@ -17,10 +17,10 @@ void afisare(int v[]) {
                 cout << i << ' ';
         cout << "} ";
     }
-    cout << endl;
+    cout << '\n';
 }
 
-void Generare_S(int n, int k) {
+void generare_S(int n, int k) {
     if (k == 1) {
         for(int i = 1; i <= n; i++)
             v[i] = 1;
@@ -34,10 +34,10 @@ void Generare_S(int n, int k) {
         }
         else {
             v[n] = k;
-            Generare_S(n - 1, k - 1);
+            generare_S(n - 1, k - 1);
             for(int i = 1; i <= k; i++) {
                 v[n] = i;
-                Generare_S(n - 1, k);
+                generare_S(n - 1, k);
             }
         }
     }
@@ -45,5 +45,5 @@ void Generare_S(int n, int k) {
 
 int main() {
     cin >> n >> k;
-    Generare_S(n, k);
+    generare_S(n, k);
 }

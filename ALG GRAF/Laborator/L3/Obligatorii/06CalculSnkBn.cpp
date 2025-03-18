@@ -18,7 +18,7 @@ void afisare(int v[]) {
                 cout << i << ' ';
         cout << "} ";
     }
-    cout << endl;
+    cout << '\n';
 }
 
 void generare_s(int n, int k) {
