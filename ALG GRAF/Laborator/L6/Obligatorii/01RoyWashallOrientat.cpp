@@ -11,7 +11,6 @@ void creareMatrice (int n, int m, int a[20][100])
         cout<<"dati extremitatile muchiei "<<i<<": "<<endl;
         f>>x>>y;
         a[x][y]++;
-        if(x!=y)a[y][x]++;
     }
 }
 void afisareMatrice(int n, int a[20][100])
